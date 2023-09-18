@@ -15,6 +15,7 @@
 ### Projects
 **Trends in North American Video Game Sales (2000-2016)**
 - Analyzed video game sales trends for different genres, systems, and major companies using Tableau as well as Python (Pandas, Matplotlib, Numpy and Seaborn).
+- Take a look at my [Python code here]([Ian Fabian] Video Games Sales Data Capstone 2 Project.ipynb)
 
 **Renewable Energy Snapshot**
 - Visualized the investment value of the renewable energy sources currently being produced and employed utilizing advanced Excel functions and Tableau.
