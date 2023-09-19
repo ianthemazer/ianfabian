@@ -6,12 +6,14 @@
 
 **New York University** 		·					            		  Sept. 2003 – May 2007
 - Bachelor of Science in Neuroscience 
-
+<br>
+<br>
 ## Skills
 - **Creative Software**: DaVinci Resolve, Adobe Premiere Pro, Adobe Photoshop, Adobe Illustrator
 - **Programming Languages**: SQL (PostgreSQL, DBMS), Python (Pandas, Matplotlib, Numpy, Seaborn)
 - **Data Visualization & Reporting**: Tableau, Power BI, Advanced Excel (Pivot Tables, VLOOKUP, etc.), Linear Regression, Statistical Modeling
-
+<br>
+<br>
 ## Projects
 **[Trends in North American Video Game Sales (2000-2016)](trends.html)**<br> 
 - Analyzed video game sales trends for different genres, systems, and major companies using Tableau as well as Python (Pandas, Matplotlib, Numpy and Seaborn).
@@ -19,7 +21,8 @@
 
 **[Renewable Energy Snapshot](viz.html)**
 - Visualized the investment value of the renewable energy sources currently being produced and employed utilizing advanced Excel functions and Tableau.
-
+<br>
+<br>
 ## Work Experience
 **Springboard** · *Data Analytics Fellow*<br>
 New York, NY · Dec. 2022 – Present<br>
