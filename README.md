@@ -1,10 +1,10 @@
 # Data Analytics Fellow
 
 ## Education
-**Springboard** 								            		        Dec. 2022 – July 2023
+**Springboard** ·								            		        Dec. 2022 – July 2023
 - Data Analytics Career Track Certification
 
-**New York University** 							            		  Sept. 2003 – May 2007
+**New York University** 		·					            		  Sept. 2003 – May 2007
 - Bachelor of Science in Neuroscience 
 
 ## Skills
@@ -21,24 +21,24 @@
 - Visualized the investment value of the renewable energy sources currently being produced and employed utilizing advanced Excel functions and Tableau.
 
 ## Work Experience
-**Springboard · Data Analytics Fellow**<br>
+**Springboard** · *Data Analytics Fellow*<br>
 New York, NY · Dec. 2022 – Present<br>
 - Studied 400+ hours of hands-on course material, with one-on-one industry expert mentor oversight. 
 - Mastered skills in analyzing business problems, data analysis, presenting business insights to different stakeholders, SQL, Python and data visualization.
 - Completed two in-depth capstone projects. 
 
-**Kobre & Kim · Knowledge Management Specialist**<br>
+**Kobre & Kim** · *Knowledge Management Specialist*<br>
 New York, NY · Nov. 2021 – July 2022<br>
 - Collected, organized, and disseminated internal information for multinational law firm based in NYC.
 - Maintained, developed, and updated intranet sites using Unily for various departments.
 - Controlled multiple competing tasks using Smartsheet software’s Gantt charts and metrics dashboard.
 
-**PlusOne Inc. · Content Writer**<br>
+**PlusOne Inc.** · *Content Writer*<br>
 Tokyo, Japan · July 2021 – Nov.2021<br>
 - Produced course curriculums for an educational tech startup using strong conceptual thinking to create captivating original content for Japanese learners.
 - Troubleshot the VR English learning program while revising the script archive for each course.
 
-**Hellrazor Inc. · International Account Manager**<br>
+**Hellrazor Inc.** · *International Account Manager*<br>
 Tokyo, Japan · Nov. 2019 – Feb. 2021<br>
 - Managed all overseas clients and projects for a fashion brand in Tokyo using exceptional communication skills.
 - Developed product launch objectives, international team goals, and sales targets with multiple invested parties.
