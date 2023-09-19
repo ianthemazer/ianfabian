@@ -10,8 +10,8 @@
 <br>
 
 ## Skills
-**Creative Software**: DaVinci Resolve, Adobe Premiere Pro, Adobe Photoshop, Adobe Illustrator
-**Programming Languages**: SQL (PostgreSQL, DBMS), Python (Pandas, Matplotlib, Numpy, Seaborn)
+**Creative Software**: DaVinci Resolve, Adobe Premiere Pro, Adobe Photoshop, Adobe Illustrator<br>
+**Programming Languages**: SQL (PostgreSQL, DBMS), Python (Pandas, Matplotlib, Numpy, Seaborn)<br>
 **Data Visualization & Reporting**: Tableau, Power BI, Advanced Excel (Pivot Tables, VLOOKUP, etc.), Linear Regression, Statistical Modeling
 <br>
 <br>
