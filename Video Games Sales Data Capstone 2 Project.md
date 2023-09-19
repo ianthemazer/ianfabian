@@ -7,7 +7,7 @@ import seaborn as sns
 ```
 
 # Data Cleansing
-Checking the overall structure of my data
+Checking the overall structure of my data:
 
 ```python
 game_sales = pd.read_csv("video_games_sales.csv")
@@ -89,7 +89,7 @@ game_sales.isnull().sum()
 
 
 
-I wanted to see the range of dates covered in the data
+I wanted to see the range of dates covered in the data:
 ```python
 print(game_sales['year'].min())
 print(game_sales['year'].max())
@@ -99,8 +99,8 @@ print(game_sales['year'].max())
     2020.0
 
 
-Filtering the dates to only show sales from the year 2000 and beyond
-I added an oldtonew dataframe to have a larger sample size for a later statistical analysis
+Filtering the dates to only show sales from the year 2000 and beyond.
+I added an oldtonew dataframe to have a larger sample size for a later statistical analysis:
 ```python
 game_sales_newgen = game_sales[(game_sales['year']>=2000)]
 game_sales_oldtonew = game_sales[(game_sales['year']<2020)]
@@ -146,14 +146,14 @@ print(game_sales_newgen['year'].max())
     2020.0
 
 
-This helps me filter out some datasets to better get a sense of the data
+This helps me filter out some datasets to better get a sense of the data:
 ```python
 newgen_genre = game_sales_newgen[['year', 'genre', 'na_sales', 'eu_sales', 'jp_sales', 'other_sales', 'global_sales']]
 newgen_platform = game_sales_newgen[['platform', 'year', 'na_sales', 'eu_sales', 'jp_sales', 'other_sales', 'global_sales' ]]
 newgen_publisher = game_sales_newgen[['year', 'publisher', 'na_sales', 'eu_sales', 'jp_sales', 'other_sales', 'global_sales']]
 ```
 
-I wanted to make a dataset of the total North American sales by year and platform to see the general trends
+I wanted to make a dataset of the total North American sales by year and platform to see the general trends:
 ```python
 newgen_nasum = game_sales_newgen.groupby(['year', 'platform', 'genre'])['na_sales'].sum()
 newgen_nasum_reset = newgen_nasum.reset_index()
@@ -212,7 +212,7 @@ print(oldtonew_nasum_reset)
     [1803 rows x 4 columns]
 
 
-Now I want to separate by the main home gaming systems, including the PC, found in North America from 2000-2010
+Now I want to separate by the main home gaming systems, including the PC, found in North America from 2000-2010:
 ```python
 newgen_nintendo = newgen_nasum_reset[newgen_nasum_reset['platform'].isin(["N64", "GB", "GBA", "GC", "DS", "3DS", "Wii", "WiiU"])]
 newgen_microsoft = newgen_nasum_reset[newgen_nasum_reset['platform'].isin(["XOne", "XB", "X360"])]
@@ -277,8 +277,8 @@ plt.show()
 ```
 
 
-We can see that the Action genre had by far the strongest sales numbers in North America<br>
-Sports, Shooters, and Misc. games have also had great numbers so far from 2000-2020<br>    
+We can see that the Action genre had by far the strongest sales numbers in North America.<br>
+Sports, Shooters, and Misc. games have also had great numbers so far from 2000-2020.<br>    
 ![png](output_9_0.png)
     
 
@@ -304,7 +304,7 @@ It seems the XBox 360 had the most sales the past two decades, followed by the P
     
 
 
-Aggregated all the different systems into their umbrella companies to see overall sales trends by major company
+Aggregated all the different systems into their umbrella companies to see overall sales trends by major company:
 ```python
 fig, ax = plt.subplots()
 newgen_nintendo_group = newgen_nintendo.groupby("year")["na_sales"].sum()
@@ -386,7 +386,7 @@ plt.show()
 ```
 
 
-The Wii and DS were by far Nintendo's most successful systems in terms of overall sales in North America from 2004-2012    
+The Wii and DS were by far Nintendo's most successful systems in terms of overall sales in North America from 2004-2012.    
 ![png](output_13_0.png)
     
 
@@ -420,7 +420,7 @@ plt.show()
 ```
 
 
-We can see that the XBox 360 had the best sales numbers for Microsoft from 2006-2014    
+We can see that the XBox 360 had the best sales numbers for Microsoft from 2006-2014.    
 ![png](output_15_0.png)
     
 
@@ -546,7 +546,7 @@ plt.show()
 
 # Sales by Genre for Microsoft
 
-Wanted to see the top 20 overall sales genres and their corresponding years.
+Wanted to see the top 20 overall sales genres and their corresponding years:
 ```python
 microsoft_genre_sales = newgen_microsoft.groupby(["genre", "year"])["na_sales"].sum()
 microsoft_genre = microsoft_genre_sales.reset_index()
@@ -612,7 +612,7 @@ plt.show()
 # Sales by Genre for Sony
 
 
-Wanted to see the top 20 overall sales genres and their corresponding years
+Wanted to see the top 20 overall sales genres and their corresponding years:
 ```python
 sony_genre_sales = newgen_sony.groupby(["genre", "year"])["na_sales"].sum()
 sony_genre = sony_genre_sales.reset_index()
