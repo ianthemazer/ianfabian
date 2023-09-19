@@ -13,8 +13,11 @@
 - **Data Visualization & Reporting**: Tableau, Power BI, Advanced Excel (Pivot Tables, VLOOKUP, etc.), Linear Regression, Statistical Modeling
 
 ### Projects
-**Trends in North American Video Game Sales (2000-2016) [Python code](Video Games Sales Data Capstone 2 Project.md)**
+**Trends in North American Video Game Sales (2000-2016)** 
+**[Python code here](Video Games Sales Data Capstone 2 Project.md)**
+**[Visualization here](trends.html)**
 - Analyzed video game sales trends for different genres, systems, and major companies using Tableau as well as Python (Pandas, Matplotlib, Numpy and Seaborn).
 
-**Renewable Energy Snapshot [Visualization here](viz.html)**
+**Renewable Energy Snapshot**
+**[Visualization here](viz.html)**
 - Visualized the investment value of the renewable energy sources currently being produced and employed utilizing advanced Excel functions and Tableau.
